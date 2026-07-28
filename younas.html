@@ -13,183 +13,337 @@
 </head>
 
 <body class="bg-light">
-
 <nav class="container-fluid bg-warning border border-dark p-2">
 
     <div class="row align-items-center">
 
         <div class="col-2">
+
             <img
                 src="./school-college-vector-logo-design-template-graduate-student-pupil-FACTK8.jpg"
                 class="img-fluid rounded-circle border border-dark"
                 width="60"
+                alt="School Logo"
             >
+
         </div>
 
         <div class="col-8 text-center">
-            <h2 class="fw-bold mb-0">Student Profile</h2>
+
+            <h2 class="fw-bold mb-0">
+                Student Profile
+            </h2>
+
         </div>
 
     </div>
 
 </nav>
-
-
 <div class="container mt-5">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <h1 class="fw-bold">
+            Student Details
+        </h1>
+        <button
+            type="button"
+            class="btn btn-dark"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#editStudent"
+        >
+            Edit
+        </button>
+
+    </div>
+
 
     <div class="row">
 
         <div class="col-md-3 text-center">
 
-            <h4 class="mb-3">PROFILE</h4>
-
             <img
                 src="./man-with-glasses-and-headphones-logo-vector.jpg"
-                class="img-fluid rounded-circle border border-dark mb-3"
-                style="width:200px;height:200px;object-fit:cover;"
+                class="img-fluid border border-dark mb-3"
+                style="width:200px;height:200px;object-fit:contain;"
+                alt="Younas Profile"
             >
 
-            <h3>Younas</h3>
+            <h3>
+                Younas
+            </h3>
 
-            <p>Batch Number 22</p>
+            <p class="fw-bold">
+                Batch Number 22
+            </p>
 
         </div>
-
-
         <div class="col-md-9">
+
+            <!-- Tabs -->
 
             <ul class="nav nav-tabs">
 
                 <li class="nav-item">
-                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#assignment">
+
+                    <button
+                        class="nav-link active"
+                        data-bs-toggle="tab"
+                        data-bs-target="#assignment"
+                    >
                         Assignments
                     </button>
+
                 </li>
 
                 <li class="nav-item">
-                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#quiz">
+
+                    <button
+                        class="nav-link"
+                        data-bs-toggle="tab"
+                        data-bs-target="#quiz"
+                    >
                         Quizzes
                     </button>
+
                 </li>
 
                 <li class="nav-item">
-                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#attendance">
+
+                    <button
+                        class="nav-link"
+                        data-bs-toggle="tab"
+                        data-bs-target="#attendance"
+                    >
                         Attendance
                     </button>
+
                 </li>
 
             </ul>
-
-
             <div class="tab-content mt-4">
 
-                <div class="tab-pane fade show active" id="assignment">
+                <div
+                    class="tab-pane fade show active"
+                    id="assignment"
+                >
 
-                    <table class="table table-bordered table-striped">
+                    <div class="table-responsive">
 
-                        <thead class="table-warning">
+                        <table class="table table-bordered table-striped">
 
-                            <tr>
-                                <th>Title</th>
-                                <th>Submitted Date</th>
-                                <th>Topic</th>
-                            </tr>
+                            <thead class="table-dark">
 
-                        </thead>
+                                <tr>
 
-                        <tbody>
+                                    <th>Title</th>
 
-                            <tr>
-                                <td>HTML Assignment</td>
-                                <td>24 June</td>
-                                <td>HTML</td>
-                            </tr>
+                                    <th>Topic</th>
 
-                            <tr>
-                                <td>CSS Assignment</td>
-                                <td>28 June</td>
-                                <td>CSS</td>
-                            </tr>
+                                    <th>Deadline</th>
 
-                            <tr>
-                                <td>Bootstrap Assignment</td>
-                                <td>3 July</td>
-                                <td>Bootstrap</td>
-                            </tr>
+                                    <th>Submitted Date</th>
 
-                        </tbody>
+                                </tr>
 
-                    </table>
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+
+                                    <td>
+                                        HTML Assignment
+                                    </td>
+
+                                    <td>
+                                        HTML
+                                    </td>
+
+                                    <td>
+                                        10 July 2026
+                                    </td>
+
+                                    <td>
+                                        6 July 2026
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+
+                                    <td>
+                                        CSS Assignment
+                                    </td>
+
+                                    <td>
+                                        CSS
+                                    </td>
+
+                                    <td>
+                                        12 July 2026
+                                    </td>
+
+                                    <td>
+                                        9 July 2026
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+
+                                    <td>
+                                        Bootstrap Assignment
+                                    </td>
+
+                                    <td>
+                                        Bootstrap
+                                    </td>
+
+                                    <td>
+                                        15 July 2026
+                                    </td>
+
+                                    <td>
+                                        13 July 2026
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
 
                 </div>
 
+                <div
+                    class="tab-pane fade"
+                    id="quiz"
+                >
 
-                <div class="tab-pane fade" id="quiz">
+                    <div class="table-responsive">
 
-                    <table class="table table-bordered table-striped">
+                        <table class="table table-bordered table-striped">
 
-                        <thead class="table-success">
+                            <thead class="table-success">
 
-                            <tr>
-                                <th>Quiz</th>
-                                <th>Marks</th>
-                                <th>Status</th>
-                            </tr>
+                                <tr>
 
-                        </thead>
+                                    <th>Quiz</th>
 
-                        <tbody>
+                                    <th>Marks</th>
 
-                            <tr>
-                                <td>HTML Quiz</td>
-                                <td>18 / 20</td>
-                                <td>Pass</td>
-                            </tr>
+                                    <th>Status</th>
 
-                            <tr>
-                                <td>CSS Quiz</td>
-                                <td>19 / 20</td>
-                                <td>Pass</td>
-                            </tr>
+                                </tr>
 
-                        </tbody>
+                            </thead>
 
-                    </table>
+                            <tbody>
+
+                                <tr>
+
+                                    <td>
+                                        HTML Quiz
+                                    </td>
+
+                                    <td>
+                                        18 / 20
+                                    </td>
+
+                                    <td>
+                                        Pass
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+
+                                    <td>
+                                        CSS Quiz
+                                    </td>
+
+                                    <td>
+                                        19 / 20
+                                    </td>
+
+                                    <td>
+                                        Pass
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
 
                 </div>
+                <div
+                    class="tab-pane fade"
+                    id="attendance"
+                >
 
+                    <div class="table-responsive">
 
-                <div class="tab-pane fade" id="attendance">
+                        <table class="table table-bordered table-striped">
 
-                    <table class="table table-bordered table-striped">
+                            <thead class="table-info">
 
-                        <thead class="table-info">
+                                <tr>
 
-                            <tr>
-                                <th>Month</th>
-                                <th>Present</th>
-                                <th>Absent</th>
-                            </tr>
+                                    <th>Month</th>
 
-                        </thead>
+                                    <th>Present</th>
 
-                        <tbody>
+                                    <th>Absent</th>
 
-                            <tr>
-                                <td>June</td>
-                                <td>25</td>
-                                <td>2</td>
-                            </tr>
+                                </tr>
 
-                            <tr>
-                                <td>July</td>
-                                <td>24</td>
-                                <td>1</td>
-                            </tr>
+                            </thead>
 
-                        </tbody>
+                            <tbody>
 
-                    </table>
+                                <tr>
+
+                                    <td>
+                                        June
+                                    </td>
+
+                                    <td>
+                                        25
+                                    </td>
+
+                                    <td>
+                                        2
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+
+                                    <td>
+                                        July
+                                    </td>
+
+                                    <td>
+                                        24
+                                    </td>
+
+                                    <td>
+                                        1
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
 
                 </div>
 
@@ -200,7 +354,133 @@
     </div>
 
 </div>
+<div
+    class="offcanvas offcanvas-end"
+    tabindex="-1"
+    id="editStudent"
+>
+    <div class="offcanvas-header">
 
+        <h5 class="offcanvas-title fw-bold">
+            Edit Student
+        </h5>
+
+        <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+        ></button>
+
+    </div>
+
+    <div class="offcanvas-body">
+
+        <form>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Student Name
+                </label>
+
+                <input
+                    type="text"
+                    class="form-control"
+                    value="Younas"
+                >
+
+            </div>
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Batch Number
+                </label>
+
+                <input
+                    type="text"
+                    class="form-control"
+                    value="22"
+                >
+
+            </div>
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Profile Picture
+                </label>
+
+                <input
+                    type="text"
+                    class="form-control"
+                    value="./man-with-glasses-and-headphones-logo-vector.jpg"
+                >
+
+            </div>
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter Email"
+                >
+
+            </div>
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Age
+                </label>
+
+                <input
+                    type="number"
+                    class="form-control"
+                    placeholder="Enter Age"
+                >
+
+            </div>
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Phone Number
+                </label>
+
+                <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="Enter Phone Number"
+                >
+
+            </div>
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Address
+                </label>
+
+                <textarea
+                    class="form-control"
+                    rows="3"
+                    placeholder="Enter Address"
+                ></textarea>
+
+            </div>
+            <button
+                type="submit"
+                class="btn btn-success w-100"
+            >
+                Submit
+            </button>
+
+
+        </form>
+
+    </div>
+
+</div>
 
 <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">

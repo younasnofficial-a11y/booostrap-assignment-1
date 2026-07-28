@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>Usman Profile</title>
 
@@ -10,221 +16,353 @@
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
         rel="stylesheet"
     >
+
 </head>
 
+
 <body class="bg-light">
+    <nav class="container-fluid bg-warning border border-dark p-2">
 
-<nav class="container-fluid bg-warning border border-dark p-2">
+        <div class="row align-items-center">
 
-    <div class="row align-items-center">
+            <div class="col-2">
 
-        <div class="col-2">
+                <img
+                    src="./school-college-vector-logo-design-template-graduate-student-pupil-FACTK8.jpg"
+                    class="img-fluid rounded-circle border border-dark"
+                    width="60"
+                    alt="School Logo"
+                >
 
-            <img
-                src="./school-college-vector-logo-design-template-graduate-student-pupil-FACTK8.jpg"
-                class="img-fluid rounded-circle border border-dark"
-                width="60"
+            </div>
+
+
+            <div class="col-8 text-center">
+
+                <h2 class="fw-bold mb-0">
+                    Student Profile
+                </h2>
+
+            </div>
+
+        </div>
+
+    </nav>
+    <div class="container mt-5">
+        <div
+            class="d-flex justify-content-between align-items-center mb-4"
+        >
+
+            <h1 class="fw-bold">
+                Student Details
+            </h1>
+            <button
+                class="btn btn-dark"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#editStudent"
             >
+                Edit
+            </button>
 
         </div>
 
-        <div class="col-8 text-center">
-
-            <h2 class="fw-bold mb-0">
-                Student Profile
-            </h2>
-
-        </div>
-
-    </div>
-
-</nav>
 
 
-<div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 text-center">
 
-    <div class="row">
-
-        <div class="col-md-3 text-center">
-
-            <h4 class="mb-3">
-                PROFILE
-            </h4>
-
-            <img
-                src="./businessman-strategy-specialy-png.webp"
-                class="img-fluid rounded-circle border border-dark mb-3"
-                style="width:200px;height:200px;object-fit:cover;"
-            >
-
-            <h3>
-                Usman
-            </h3>
-
-            <p>
-                Batch Number 25
-            </p>
-
-        </div>
-
-        <div class="col-md-9">
-
-            <ul class="nav nav-tabs">
-
-                <li class="nav-item">
-
-                    <button
-                        class="nav-link active"
-                        data-bs-toggle="tab"
-                        data-bs-target="#assignment"
-                    >
-                        Assignments
-                    </button>
-
-                </li>
-
-                <li class="nav-item">
-
-                    <button
-                        class="nav-link"
-                        data-bs-toggle="tab"
-                        data-bs-target="#quiz"
-                    >
-                        Quizzes
-                    </button>
-
-                </li>
-
-                <li class="nav-item">
-
-                    <button
-                        class="nav-link"
-                        data-bs-toggle="tab"
-                        data-bs-target="#attendance"
-                    >
-                        Attendance
-                    </button>
-
-                </li>
-
-            </ul>
+                <h4 class="mb-3">
+                    PROFILE
+                </h4>
 
 
-            <div class="tab-content mt-4">
-
-                <div
-                    class="tab-pane fade show active"
-                    id="assignment"
+                <img
+                    src="./businessman-strategy-specialy-png.webp"
+                    class="img-fluid rounded-circle border border-dark mb-3"
+                    style="width:200px;height:200px;object-fit:cover;"
+                    alt="Usman"
                 >
 
-                    <table class="table table-bordered table-striped">
 
-                        <thead class="table-warning">
+                <h3>
+                    Usman
+                </h3>
 
-                            <tr>
-                                <th>Title</th>
-                                <th>Submitted Date</th>
-                                <th>Topic</th>
-                            </tr>
 
-                        </thead>
+                <p class="fw-bold">
+                    Batch Number 25
+                </p>
 
-                        <tbody>
+            </div>
+            <div class="col-md-9">
+                <ul class="nav nav-tabs">
 
-                            <tr>
-                                <td>Bootstrap Assignment 1</td>
-                                <td>24 June</td>
-                                <td>Bootstrap</td>
-                            </tr>
 
-                            <tr>
-                                <td>Bootstrap Assignment 2</td>
-                                <td>28 June</td>
-                                <td>Grid</td>
-                            </tr>
+                    <li class="nav-item">
 
-                            <tr>
-                                <td>Bootstrap Assignment 3</td>
-                                <td>3 July</td>
-                                <td>Modal</td>
-                            </tr>
+                        <button
+                            class="nav-link active"
+                            data-bs-toggle="tab"
+                            data-bs-target="#assignment"
+                        >
+                            Assignments
+                        </button>
 
-                        </tbody>
+                    </li>
 
-                    </table>
 
-                </div>
+                    <li class="nav-item">
 
-                <div
-                    class="tab-pane fade"
-                    id="quiz"
-                >
+                        <button
+                            class="nav-link"
+                            data-bs-toggle="tab"
+                            data-bs-target="#quiz"
+                        >
+                            Quizzes
+                        </button>
 
-                    <table class="table table-bordered table-striped">
+                    </li>
 
-                        <thead class="table-success">
 
-                            <tr>
-                                <th>Quiz</th>
-                                <th>Marks</th>
-                                <th>Status</th>
-                            </tr>
+                    <li class="nav-item">
 
-                        </thead>
+                        <button
+                            class="nav-link"
+                            data-bs-toggle="tab"
+                            data-bs-target="#attendance"
+                        >
+                            Attendance
+                        </button>
 
-                        <tbody>
+                    </li>
 
-                            <tr>
-                                <td>HTML Quiz</td>
-                                <td>16 / 20</td>
-                                <td>Pass</td>
-                            </tr>
+                </ul>
 
-                            <tr>
-                                <td>CSS Quiz</td>
-                                <td>18 / 20</td>
-                                <td>Pass</td>
-                            </tr>
 
-                        </tbody>
 
-                    </table>
+                <div class="tab-content mt-4">
+                    <div
+                        class="tab-pane fade show active"
+                        id="assignment"
+                    >
 
-                </div>
-                <div
-                    class="tab-pane fade"
-                    id="attendance"
-                >
+                        <table class="table table-bordered table-striped">
 
-                    <table class="table table-bordered table-striped">
+                            <thead class="table-warning">
 
-                        <thead class="table-info">
+                                <tr>
 
-                            <tr>
-                                <th>Month</th>
-                                <th>Present</th>
-                                <th>Absent</th>
-                            </tr>
+                                    <th>
+                                        Title
+                                    </th>
 
-                        </thead>
+                                    <th>
+                                        Submitted Date
+                                    </th>
 
-                        <tbody>
+                                    <th>
+                                        Topic
+                                    </th>
 
-                            <tr>
-                                <td>June</td>
-                                <td>24</td>
-                                <td>3</td>
-                            </tr>
+                                </tr>
 
-                            <tr>
-                                <td>July</td>
-                                <td>26</td>
-                                <td>0</td>
-                            </tr>
+                            </thead>
 
-                        </tbody>
 
-                    </table>
+                            <tbody>
+
+                                <tr>
+
+                                    <td>
+                                        Bootstrap Assignment 1
+                                    </td>
+
+                                    <td>
+                                        24 June
+                                    </td>
+
+                                    <td>
+                                        Bootstrap
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>
+                                        Bootstrap Assignment 2
+                                    </td>
+
+                                    <td>
+                                        28 June
+                                    </td>
+
+                                    <td>
+                                        Grid
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>
+                                        Bootstrap Assignment 3
+                                    </td>
+
+                                    <td>
+                                        3 July
+                                    </td>
+
+                                    <td>
+                                        Modal
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                    <div
+                        class="tab-pane fade"
+                        id="quiz"
+                    >
+
+                        <table class="table table-bordered table-striped">
+
+                            <thead class="table-success">
+
+                                <tr>
+
+                                    <th>
+                                        Quiz
+                                    </th>
+
+                                    <th>
+                                        Marks
+                                    </th>
+
+                                    <th>
+                                        Status
+                                    </th>
+
+                                </tr>
+
+                            </thead>
+
+
+                            <tbody>
+
+                                <tr>
+
+                                    <td>
+                                        HTML Quiz
+                                    </td>
+
+                                    <td>
+                                        16 / 20
+                                    </td>
+
+                                    <td>
+                                        Pass
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>
+                                        CSS Quiz
+                                    </td>
+
+                                    <td>
+                                        18 / 20
+                                    </td>
+
+                                    <td>
+                                        Pass
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                    <div
+                        class="tab-pane fade"
+                        id="attendance"
+                    >
+
+                        <table class="table table-bordered table-striped">
+
+                            <thead class="table-info">
+
+                                <tr>
+
+                                    <th>
+                                        Month
+                                    </th>
+
+                                    <th>
+                                        Present
+                                    </th>
+
+                                    <th>
+                                        Absent
+                                    </th>
+
+                                </tr>
+
+                            </thead>
+
+
+                            <tbody>
+
+                                <tr>
+
+                                    <td>
+                                        June
+                                    </td>
+
+                                    <td>
+                                        24
+                                    </td>
+
+                                    <td>
+                                        3
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>
+                                        July
+                                    </td>
+
+                                    <td>
+                                        26
+                                    </td>
+
+                                    <td>
+                                        0
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
 
                 </div>
 
@@ -234,12 +372,140 @@
 
     </div>
 
-</div>
+    <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="editStudent"
+    >
+
+        <div class="offcanvas-header">
+
+            <h4 class="offcanvas-title fw-bold">
+                Edit Student
+            </h4>
 
 
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
-</script>
+            <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+            ></button>
+
+        </div>
+        <div class="offcanvas-body">
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Student Name
+                </label>
+
+                <input
+                    type="text"
+                    class="form-control"
+                    value="Usman"
+                >
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Batch Number
+                </label>
+
+                <input
+                    type="text"
+                    class="form-control"
+                    value="25"
+                >
+
+            </div>
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Profile Picture
+                </label>
+
+                <input
+                    type="text"
+                    class="form-control"
+                    value="./businessman-strategy-specialy-png.webp"
+                >
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter Email"
+                >
+
+            </div>
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Age
+                </label>
+
+                <input
+                    type="number"
+                    class="form-control"
+                    placeholder="Enter Age"
+                >
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Phone Number
+                </label>
+
+                <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Phone Number"
+                >
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Address
+                </label>
+
+                <textarea
+                    class="form-control"
+                    rows="3"
+                    placeholder="Enter Address"
+                ></textarea>
+
+            </div>
+
+            <button
+                type="button"
+                class="btn btn-success w-100"
+                data-bs-dismiss="offcanvas"
+            >
+                Submit
+            </button>
+
+        </div>
+
+    </div>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
 
 </body>
+
 </html>
